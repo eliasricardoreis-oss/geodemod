@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6336171a600b43fed905ffb50a22a84a\bindings-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6336171a600b43fed905ffb50a22a84a\bindings-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6336171a600b43fed905ffb50a22a84a\bindings-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6336171a600b43fed905ffb50a22a84a\bindings-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6336171a600b43fed905ffb50a22a84a\bindings-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6336171a600b43fed905ffb50a22a84a\bindings-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6336171a600b43fed905ffb50a22a84a\bindings-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6336171a600b43fed905ffb50a22a84a\bindings-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\96922de2593127cea638acae3a255e2a\bindings-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6cc75dce6a9d59066ce2dbbe24cb8bf5\bindings-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\bindings-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE79C1CD-371F-3A42-9351-F354D1E04ED3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Downloads\astar-pilot\build\_deps\bindings-subbuild\CMakeFiles\6cc75dce6a9d59066ce2dbbe24cb8bf5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE79C1CD-371F-3A42-9351-F354D1E04ED3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\ASTAR-PILOT\BUILD\_DEPS\BINDINGS-SUBBUILD\CMAKEFILES\6CC75DCE6A9D59066CE2DBBE24CB8BF5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Downloads/astar-pilot/build/_deps/bindings-subbuild -BC:/Users/User/Downloads/astar-pilot/build/_deps/bindings-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Downloads/astar-pilot/build/_deps/bindings-subbuild/bindings-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

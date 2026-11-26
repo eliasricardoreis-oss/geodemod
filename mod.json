@@ -1,0 +1,46 @@
+{
+	"geode": "5.0.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"version": "v0.1.0",
+	"id": "user.astar-pilot",
+	"name": "A* Pilot",
+	"developer": "user",
+	"description": "Autopilot using A* pathfinding over a physics simulation: all gamemodes, platformer (fastest) and classic (fewest attempts).",
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Enabled",
+			"default": true
+		},
+		"preplan-ms": {
+			"type": "int",
+			"name": "Pre-plan budget (ms)",
+			"description": "Time spent planning the level at the start of each attempt.",
+			"default": 1500,
+			"min": 0,
+			"max": 20000
+		},
+		"horizon-seconds": {
+			"type": "float",
+			"name": "Look-ahead (seconds)",
+			"default": 3.0,
+			"min": 0.5,
+			"max": 10.0
+		},
+		"show-path": {
+			"type": "bool",
+			"name": "Draw planned path",
+			"default": true
+		},
+		"trace-log": {
+			"type": "bool",
+			"name": "Log sim-vs-real drift (for calibration)",
+			"default": false
+		}
+	}
+}

@@ -1,0 +1,1853 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 18.10.1-1.26427.6+3cd27c13e para .NET Framework
+      Compila├º├úo de 26/11/2026 14:28:10 iniciada.
+      
+      Projeto "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:04.76
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/4.4.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Users/User/.local/bin/claude.exe/lld-link.com"
+      - "C:/Users/User/.local/bin/claude.exe/lld-link.exe"
+      - "C:/Users/User/.local/bin/claude.exe/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/spwn/lld-link.com"
+      - "C:/Program Files/spwn/lld-link.exe"
+      - "C:/Program Files/spwn/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/mitmproxy/bin/lld-link.com"
+      - "C:/Program Files/mitmproxy/bin/lld-link.exe"
+      - "C:/Program Files/mitmproxy/bin/lld-link"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/User/.dotnet/tools/lld-link.com"
+      - "C:/Users/User/.dotnet/tools/lld-link.exe"
+      - "C:/Users/User/.dotnet/tools/lld-link"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/lld-link.com"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/lld-link.exe"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/lld-link"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/lld-link.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/lld-link"
+      - "C:/winlibs/mingw64/bin/lld-link.com"
+      - "C:/winlibs/mingw64/bin/lld-link.exe"
+      - "C:/winlibs/mingw64/bin/lld-link"
+      - "C:/Users/User/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/User/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/User/AppData/Roaming/npm/lld-link"
+      - "C:/Users/User/AppData/Local/Unity/bin/lld-link.com"
+      - "C:/Users/User/AppData/Local/Unity/bin/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Unity/bin/lld-link"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/lld-link.com"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/lld-link.exe"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/lld-link"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/lld-link.com"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/lld-link.exe"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/lld-link"
+      - "C:/emsdk/lld-link.com"
+      - "C:/emsdk/lld-link.exe"
+      - "C:/emsdk/lld-link"
+      - "C:/emsdk/upstream/emscripten/lld-link.com"
+      - "C:/emsdk/upstream/emscripten/lld-link.exe"
+      - "C:/emsdk/upstream/emscripten/lld-link"
+      - "C:/Users/User/.cargo/bin/lld-link.com"
+      - "C:/Users/User/.cargo/bin/lld-link.exe"
+      - "C:/Users/User/.cargo/bin/lld-link"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/lld-link.com"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/lld-link.exe"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/lld-link"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Users/User/.local/bin/claude.exe/mt.com"
+      - "C:/Users/User/.local/bin/claude.exe/mt.exe"
+      - "C:/Users/User/.local/bin/claude.exe/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/PuTTY/mt.com"
+      - "C:/Program Files/PuTTY/mt.exe"
+      - "C:/Program Files/PuTTY/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/spwn/mt.com"
+      - "C:/Program Files/spwn/mt.exe"
+      - "C:/Program Files/spwn/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/mt.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/mt.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/mt"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/mt.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/mt.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/mt"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/mt.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/mt.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/mt"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/mt.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/mt.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/mt"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/mitmproxy/bin/mt.com"
+      - "C:/Program Files/mitmproxy/bin/mt.exe"
+      - "C:/Program Files/mitmproxy/bin/mt"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
+      - "C:/Users/User/.dotnet/tools/mt.com"
+      - "C:/Users/User/.dotnet/tools/mt.exe"
+      - "C:/Users/User/.dotnet/tools/mt"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/mt.com"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/mt.exe"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/mt"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/mt.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/mt.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/mt"
+      - "C:/winlibs/mingw64/bin/mt.com"
+      - "C:/winlibs/mingw64/bin/mt.exe"
+      - "C:/winlibs/mingw64/bin/mt"
+      - "C:/Users/User/AppData/Roaming/npm/mt.com"
+      - "C:/Users/User/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/User/AppData/Roaming/npm/mt"
+      - "C:/Users/User/AppData/Local/Unity/bin/mt.com"
+      - "C:/Users/User/AppData/Local/Unity/bin/mt.exe"
+      - "C:/Users/User/AppData/Local/Unity/bin/mt"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/mt.com"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/mt.exe"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/mt"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/mt.com"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/mt.exe"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/mt.com"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/mt.exe"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/mt"
+      - "C:/emsdk/mt.com"
+      - "C:/emsdk/mt.exe"
+      - "C:/emsdk/mt"
+      - "C:/emsdk/upstream/emscripten/mt.com"
+      - "C:/emsdk/upstream/emscripten/mt.exe"
+      - "C:/emsdk/upstream/emscripten/mt"
+      - "C:/Users/User/.cargo/bin/mt.com"
+      - "C:/Users/User/.cargo/bin/mt.exe"
+      - "C:/Users/User/.cargo/bin/mt"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/mt.com"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/mt.exe"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/mt"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 18.10.1-1.26427.6+3cd27c13e para .NET Framework
+      Compila├º├úo de 26/11/2026 14:28:16 iniciada.
+      
+      Projeto "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:02.50
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/4.4.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Users/User/.local/bin/claude.exe/lld-link.com"
+      - "C:/Users/User/.local/bin/claude.exe/lld-link.exe"
+      - "C:/Users/User/.local/bin/claude.exe/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/spwn/lld-link.com"
+      - "C:/Program Files/spwn/lld-link.exe"
+      - "C:/Program Files/spwn/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/mitmproxy/bin/lld-link.com"
+      - "C:/Program Files/mitmproxy/bin/lld-link.exe"
+      - "C:/Program Files/mitmproxy/bin/lld-link"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/User/.dotnet/tools/lld-link.com"
+      - "C:/Users/User/.dotnet/tools/lld-link.exe"
+      - "C:/Users/User/.dotnet/tools/lld-link"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/lld-link.com"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/lld-link.exe"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/lld-link"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/lld-link.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/lld-link"
+      - "C:/winlibs/mingw64/bin/lld-link.com"
+      - "C:/winlibs/mingw64/bin/lld-link.exe"
+      - "C:/winlibs/mingw64/bin/lld-link"
+      - "C:/Users/User/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/User/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/User/AppData/Roaming/npm/lld-link"
+      - "C:/Users/User/AppData/Local/Unity/bin/lld-link.com"
+      - "C:/Users/User/AppData/Local/Unity/bin/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Unity/bin/lld-link"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/lld-link.com"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/lld-link.exe"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/lld-link"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/lld-link.com"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/lld-link.exe"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/lld-link.com"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/lld-link"
+      - "C:/emsdk/lld-link.com"
+      - "C:/emsdk/lld-link.exe"
+      - "C:/emsdk/lld-link"
+      - "C:/emsdk/upstream/emscripten/lld-link.com"
+      - "C:/emsdk/upstream/emscripten/lld-link.exe"
+      - "C:/emsdk/upstream/emscripten/lld-link"
+      - "C:/Users/User/.cargo/bin/lld-link.com"
+      - "C:/Users/User/.cargo/bin/lld-link.exe"
+      - "C:/Users/User/.cargo/bin/lld-link"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/lld-link.com"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/lld-link.exe"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/lld-link"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/AStarPilot/bin/"
+      - "C:/Program Files/AStarPilot/sbin/"
+      - "C:/Program Files/AStarPilot/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Users/User/.local/bin/claude.exe/rc.com"
+      - "C:/Users/User/.local/bin/claude.exe/rc.exe"
+      - "C:/Users/User/.local/bin/claude.exe/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/PuTTY/rc.com"
+      - "C:/Program Files/PuTTY/rc.exe"
+      - "C:/Program Files/PuTTY/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/spwn/rc.com"
+      - "C:/Program Files/spwn/rc.exe"
+      - "C:/Program Files/spwn/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/rc.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/rc.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/rc"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/rc.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/rc.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/rc"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/rc.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/rc.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/rc"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/rc.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/rc.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/rc"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/mitmproxy/bin/rc.com"
+      - "C:/Program Files/mitmproxy/bin/rc.exe"
+      - "C:/Program Files/mitmproxy/bin/rc"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
+      - "C:/Users/User/.dotnet/tools/rc.com"
+      - "C:/Users/User/.dotnet/tools/rc.exe"
+      - "C:/Users/User/.dotnet/tools/rc"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/rc.com"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/rc.exe"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/rc"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/rc.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/rc.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/rc"
+      - "C:/winlibs/mingw64/bin/rc.com"
+      - "C:/winlibs/mingw64/bin/rc.exe"
+      - "C:/winlibs/mingw64/bin/rc"
+      - "C:/Users/User/AppData/Roaming/npm/rc.com"
+      - "C:/Users/User/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/User/AppData/Roaming/npm/rc"
+      - "C:/Users/User/AppData/Local/Unity/bin/rc.com"
+      - "C:/Users/User/AppData/Local/Unity/bin/rc.exe"
+      - "C:/Users/User/AppData/Local/Unity/bin/rc"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/rc.com"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/rc.exe"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/rc"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/rc.com"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/rc.exe"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/rc.com"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/rc.exe"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/rc"
+      - "C:/emsdk/rc.com"
+      - "C:/emsdk/rc.exe"
+      - "C:/emsdk/rc"
+      - "C:/emsdk/upstream/emscripten/rc.com"
+      - "C:/emsdk/upstream/emscripten/rc.exe"
+      - "C:/emsdk/upstream/emscripten/rc"
+      - "C:/Users/User/.cargo/bin/rc.com"
+      - "C:/Users/User/.cargo/bin/rc.exe"
+      - "C:/Users/User/.cargo/bin/rc"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/rc.com"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/rc.exe"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/rc"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files/AStarPilot/bin/rc.com"
+      - "C:/Program Files/AStarPilot/bin/rc.exe"
+      - "C:/Program Files/AStarPilot/bin/rc"
+      - "C:/Program Files/AStarPilot/sbin/rc.com"
+      - "C:/Program Files/AStarPilot/sbin/rc.exe"
+      - "C:/Program Files/AStarPilot/sbin/rc"
+      - "C:/Program Files/AStarPilot/rc.com"
+      - "C:/Program Files/AStarPilot/rc.exe"
+      - "C:/Program Files/AStarPilot/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/AStarPilot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/AStarPilot"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-pm7m0w"
+      binary: "C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-pm7m0w"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-pm7m0w'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0e902.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Vers├úo do MSBuild 18.10.1-1.26427.6+3cd27c13e para .NET Framework
+        Compila├º├úo de 26/11/2026 14:28:21 iniciada.
+        
+        Projeto "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pm7m0w\\cmTC_0e902.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pm7m0w\\Debug\\".
+          Criando o diret├│rio "cmTC_0e902.dir\\Debug\\cmTC_0e902.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_0e902.dir\\Debug\\cmTC_0e902.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_0e902.dir\\Debug\\cmTC_0e902.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0e902.dir\\Debug\\\\" /Fd"cmTC_0e902.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0e902.dir\\Debug\\\\" /Fd"cmTC_0e902.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pm7m0w\\Debug\\cmTC_0e902.exe" /INCREMENTAL /ILK:"cmTC_0e902.dir\\Debug\\cmTC_0e902.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-pm7m0w/Debug/cmTC_0e902.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-pm7m0w/Debug/cmTC_0e902.lib" /MACHINE:X64  /machine:x64 cmTC_0e902.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0e902.vcxproj -> C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pm7m0w\\Debug\\cmTC_0e902.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_0e902.dir\\Debug\\cmTC_0e902.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_0e902.dir\\Debug\\cmTC_0e902.tlog\\cmTC_0e902.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pm7m0w\\cmTC_0e902.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:02.25
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pm7m0w\\Debug\\cmTC_0e902.exe" /INCREMENTAL /ILK:"cmTC_0e902.dir\\Debug\\cmTC_0e902.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-pm7m0w/Debug/cmTC_0e902.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-pm7m0w/Debug/cmTC_0e902.lib" /MACHINE:X64  /machine:x64 cmTC_0e902.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-hw1q2p"
+      binary: "C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-hw1q2p"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_ARCHITECTURES: "arm64;x86_64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-hw1q2p'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_07eda.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Vers├úo do MSBuild 18.10.1-1.26427.6+3cd27c13e para .NET Framework
+        Compila├º├úo de 26/11/2026 14:28:25 iniciada.
+        
+        Projeto "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hw1q2p\\cmTC_07eda.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hw1q2p\\Debug\\".
+          Criando o diret├│rio "cmTC_07eda.dir\\Debug\\cmTC_07eda.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_07eda.dir\\Debug\\cmTC_07eda.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_07eda.dir\\Debug\\cmTC_07eda.tlog\\unsuccessfulbuild".
+        ComputeStdModulesCompileInputs:
+          Lendo o arquivo de manifesto da biblioteca 'C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\modules\\modules.json' que fornece dados para a biblioteca 'microsoft/STL'.
+          Adicionando a fonte do m├│dulo 'C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\modules\\std.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
+          Adicionando a fonte do m├│dulo 'C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\modules\\std.compat.ixx' da biblioteca 'microsoft/STL' a ser constru├¡da com este projeto.
+        MakeDirsForCl:
+          Criando o diret├│rio "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hw1q2p\\cmTC_07eda.dir\\Debug\\microsoft\\STL".
+        SetModuleDependencies:
+          Criando o diret├│rio "cmTC_07eda.dir\\Debug\\cmTC_07eda_MD.tlog\\".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_07eda.dir\\Debug\\\\" /Fd"cmTC_07eda.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_07eda.dir\\Debug\\\\" /Fd"cmTC_07eda.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hw1q2p\\Debug\\cmTC_07eda.exe" /INCREMENTAL /ILK:"cmTC_07eda.dir\\Debug\\cmTC_07eda.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-hw1q2p/Debug/cmTC_07eda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-hw1q2p/Debug/cmTC_07eda.lib" /MACHINE:X64  /machine:x64 cmTC_07eda.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_07eda.vcxproj -> C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hw1q2p\\Debug\\cmTC_07eda.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_07eda.dir\\Debug\\cmTC_07eda.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_07eda.dir\\Debug\\cmTC_07eda.tlog\\cmTC_07eda.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hw1q2p\\cmTC_07eda.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:02.58
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\User\\Downloads\\astar-pilot\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hw1q2p\\Debug\\cmTC_07eda.exe" /INCREMENTAL /ILK:"cmTC_07eda.dir\\Debug\\cmTC_07eda.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-hw1q2p/Debug/cmTC_07eda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/User/Downloads/astar-pilot/build/CMakeFiles/CMakeScratch/TryCompile-hw1q2p/Debug/cmTC_07eda.lib" /MACHINE:X64  /machine:x64 cmTC_07eda.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/GeodeSDK/CMakeLists.txt:21 (find_program)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/AStarPilot/bin/"
+      - "C:/Program Files/AStarPilot/sbin/"
+      - "C:/Program Files/AStarPilot/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Users/User/.local/bin/claude.exe/git.com"
+      - "C:/Users/User/.local/bin/claude.exe/git.exe"
+      - "C:/Users/User/.local/bin/claude.exe/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/AStarPilot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/AStarPilot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/GeodeSDK/cmake/GeodeFile.cmake:5 (find_program)"
+      - "D:/GeodeSDK/CMakeLists.txt:219 (include)"
+    mode: "program"
+    variable: "GEODE_CLI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "geode.exe"
+      - "geode-cli.exe"
+      - "geode"
+      - "geode-cli"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/User/.local/bin/claude.exe/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/spwn/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/mitmproxy/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/User/.dotnet/tools/"
+      - "C:/Users/User/Downloads/PS4Toolchain/bin/windows/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/winlibs/mingw64/bin/"
+      - "C:/Users/User/AppData/Roaming/npm/"
+      - "C:/Users/User/AppData/Local/Unity/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited-1.0.3/bin/"
+      - "C:/Users/User/Downloads/OpenCode-Unlimited/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/User/AppData/Local/Programs/OpenAI/Codex/bin/"
+      - "C:/emsdk/"
+      - "C:/emsdk/upstream/emscripten/"
+      - "C:/Users/User/.cargo/bin/"
+      - "C:/Users/User/Documents/OpenCode-Unlimited/bin/"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/AStarPilot/bin/"
+      - "C:/Program Files/AStarPilot/sbin/"
+      - "C:/Program Files/AStarPilot/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/geode.exe.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/geode.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/geode.exe.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/geode.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/geode.exe.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/geode.exe"
+      - "C:/Users/User/.local/bin/claude.exe/geode.exe.com"
+      - "C:/Users/User/.local/bin/claude.exe/geode.exe"
+      - "C:/Program Files/Git/cmd/geode.exe.com"
+      - "C:/Program Files/Git/cmd/geode.exe"
+      - "C:/Program Files/PuTTY/geode.exe.com"
+      - "C:/Program Files/PuTTY/geode.exe"
+      - "C:/Program Files/CMake/bin/geode.exe.com"
+      - "C:/Program Files/CMake/bin/geode.exe"
+      - "C:/Program Files/dotnet/geode.exe.com"
+      - "C:/Program Files/dotnet/geode.exe"
+      - "C:/Program Files/spwn/geode.exe.com"
+      - "C:/Program Files/spwn/geode.exe"
+      - "C:/Program Files/nodejs/geode.exe.com"
+      - "C:/Program Files/nodejs/geode.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/geode.exe.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/Scripts/geode.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/geode.exe.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python311/geode.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/geode.exe.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/Scripts/geode.exe"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/geode.exe.com"
+      - "C:/Users/User/AppData/Local/Programs/Python/Python314/geode.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/geode.exe.com"
+      - "C:/Users/User/AppData/Local/Microsoft/WindowsApps/geode.exe"
+      - "C:/Program Files/mitmproxy/bin/geode.exe.com"
+      - "C:/Program Files/mitmproxy/bin/geode.exe"
+      - "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/geode.exe.com"
+    found: "C:/Users/User/AppData/Local/Microsoft/WinGet/Packages/GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe/geode.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\User\\.local\\bin\\claude.exe"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\spwn\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\mitmproxy\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GeodeSDK.GeodeCLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\User\\.dotnet\\tools"
+        - "C:\\Users\\User\\Downloads\\PS4Toolchain\\bin\\windows"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\winlibs\\mingw64\\bin"
+        - "C:\\Users\\User\\AppData\\Roaming\\npm"
+        - "C:\\Users\\User\\AppData\\Local\\Unity\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited-1.0.3\\bin"
+        - "C:\\Users\\User\\Downloads\\OpenCode-Unlimited\\bin"
+        - "C:\\Windows\\System32"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\User\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin"
+        - "C:\\emsdk"
+        - "C:\\emsdk\\upstream\\emscripten"
+        - "C:\\Users\\User\\.cargo\\bin"
+        - "C:\\Users\\User\\Documents\\OpenCode-Unlimited\\bin"
+        - "C:\\Users\\User\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.5_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/AStarPilot"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/AStarPilot"
+...
